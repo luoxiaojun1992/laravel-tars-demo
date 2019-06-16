@@ -32,7 +32,7 @@ return [
 
     'proto' => [
         'appName' => 'PHPTest', //根据实际情况替换
-        'serverName' => 'PHPHTTPServer', //根据实际情况替换
+        'serverName' => 'LaravelTars', //根据实际情况替换
         'objName' => 'obj', //根据实际情况替换
     ],
 ];
