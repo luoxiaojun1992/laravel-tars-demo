@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc512750f3ee8882ee117c60459d6575",
+    "content-hash": "1567c5a0b441c2c41c5b68352bda0dd6",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -991,16 +991,16 @@
         },
         {
             "name": "luoxiaojun1992/laravel-tars",
-            "version": "dev-tars-server",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luoxiaojun1992/laravel-tars.git",
-                "reference": "af4230d7047e5d8ada35608dd56bc6258022d208"
+                "reference": "2d6ab00d09684a456a66e18d2d1e0386cbe36cf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/af4230d7047e5d8ada35608dd56bc6258022d208",
-                "reference": "af4230d7047e5d8ada35608dd56bc6258022d208",
+                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/2d6ab00d09684a456a66e18d2d1e0386cbe36cf2",
+                "reference": "2d6ab00d09684a456a66e18d2d1e0386cbe36cf2",
                 "shasum": ""
             },
             "require": {
@@ -1043,7 +1043,7 @@
                 }
             ],
             "description": "Laravel Tars",
-            "time": "2019-06-27T02:22:23+00:00"
+            "time": "2019-06-27T02:48:14+00:00"
         },
         {
             "name": "monolog/monolog",
