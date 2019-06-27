@@ -16,8 +16,20 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => '/Laravel/route'], function () {
-    Route::get('/index/index', function () {
-        \Illuminate\Support\Facades\Log::info('test tars log');
-        return app('service.demo')->ping() . ':接入Laravel Router成功啦,配置:' . json_encode(config('foo'));
+    Route::group(['prefix' => '/test'], function () {
+        Route::get('/http', function () {
+            \Illuminate\Support\Facades\Log::info('test laravel tars log');
+            return app('service.demo')->ping() . ':接入Laravel Router成功啦,配置:' . json_encode(config('foo'));
+        });
+
+        Route::get('/tars', function() {
+            try {
+                $config = \Lxj\Laravel\Tars\Config::communicatorConfig(config('tars.deploy_cfg'));
+                $cservent = new \App\Tars\cservant\PHPTest\LaravelTars\tarsObj\TestTafServiceServant($config);
+                return $cservent->test();
+            } catch (\Throwable $e) {
+                return $e->getMessage();
+            }
+        });
     });
 });
