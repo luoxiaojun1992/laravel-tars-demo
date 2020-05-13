@@ -616,6 +616,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -668,6 +669,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -1078,12 +1080,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luoxiaojun1992/laravel-tars.git",
-                "reference": "49d8533be7fc89e6d69917cf7561f73d3a585904"
+                "reference": "2c79822a7dc5cf4059d6742e10c43e86af6cc97d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/49d8533be7fc89e6d69917cf7561f73d3a585904",
-                "reference": "49d8533be7fc89e6d69917cf7561f73d3a585904",
+                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/2c79822a7dc5cf4059d6742e10c43e86af6cc97d",
+                "reference": "2c79822a7dc5cf4059d6742e10c43e86af6cc97d",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1093,7 +1095,7 @@
                 ]
             },
             "require": {
-                "guzzlehttp/guzzle": "6.3.3",
+                "guzzlehttp/guzzle": "^6",
                 "illuminate/console": "~5",
                 "illuminate/contracts": "~5",
                 "illuminate/support": "~5",
@@ -1132,7 +1134,7 @@
                 }
             ],
             "description": "Laravel Tars",
-            "time": "2019-11-15T02:42:01+00:00"
+            "time": "2020-05-11T11:04:12+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1266,6 +1268,7 @@
                 "cron",
                 "schedule"
             ],
+            "abandoned": "dragonmantank/cron-expression",
             "time": "2017-01-23T04:29:33+00:00"
         },
         {
