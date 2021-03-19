@@ -1141,12 +1141,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luoxiaojun1992/laravel-tars.git",
-                "reference": "a25292096e35213b8c209722b035ea356f270e51"
+                "reference": "99776cd270ea0980b373855b6164bcdaf40d8e63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/a25292096e35213b8c209722b035ea356f270e51",
-                "reference": "a25292096e35213b8c209722b035ea356f270e51",
+                "url": "https://api.github.com/repos/luoxiaojun1992/laravel-tars/zipball/99776cd270ea0980b373855b6164bcdaf40d8e63",
+                "reference": "99776cd270ea0980b373855b6164bcdaf40d8e63",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1195,7 +1195,7 @@
                 }
             ],
             "description": "Laravel Tars",
-            "time": "2020-12-04T17:24:24+00:00"
+            "time": "2021-03-19T09:18:10+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -5980,12 +5980,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": "",
                 "mirrors": [
@@ -6041,5 +6041,6 @@
     "platform": {
         "php": ">=7.0.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
