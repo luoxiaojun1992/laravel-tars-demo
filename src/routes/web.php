@@ -18,8 +18,11 @@ Route::get('/', function () {
 Route::group(['prefix' => '/test'], function () {
     Route::get('/http', function () {
         \Illuminate\Support\Facades\Log::info('test laravel tars log');
-        return app('service.demo')->ping() . ':接入Laravel Router成功啦,配置:' . json_encode(config('foo')) . ',入参:' .
-            json_encode(app('request')->all());
+        return '接入Laravel Router成功啦' .
+            ',ping:' . (app('service.demo')->ping()) .
+            ',配置:' . json_encode(config('foo')) .
+            ',入参:' . json_encode(app('request')->all()) .
+            ',Memory:' . ((string)memory_get_usage());
     });
 
     Route::get('/tars', function () {
