@@ -1634,16 +1634,16 @@
         },
         {
             "name": "phptars/tars-log",
-            "version": "0.1.5",
+            "version": "0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TarsPHP/tars-log.git",
-                "reference": "fb985094121030c68dab979b5b6f73ae3fcc4870"
+                "reference": "2e5645e18d9c278c01f5dafcf0ce1aeccfd81d25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TarsPHP/tars-log/zipball/fb985094121030c68dab979b5b6f73ae3fcc4870",
-                "reference": "fb985094121030c68dab979b5b6f73ae3fcc4870",
+                "url": "https://api.github.com/repos/TarsPHP/tars-log/zipball/2e5645e18d9c278c01f5dafcf0ce1aeccfd81d25",
+                "reference": "2e5645e18d9c278c01f5dafcf0ce1aeccfd81d25",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1653,7 +1653,6 @@
                 ]
             },
             "require": {
-                "monolog/monolog": "^1.23",
                 "php": ">=5.5",
                 "phptars/tars-client": "~0.1"
             },
@@ -1666,16 +1665,20 @@
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
-                    "name": "Chen Liang",
+                    "name": "Chen liang",
                     "email": "liangchen@yuewen.com"
                 },
                 {
-                    "name": "Jingfeng Liu",
+                    "name": "Jingfeng liu",
                     "email": "liujingfeng.a@yuewen.com"
+                },
+                {
+                    "name": "Panpan Ding",
+                    "email": "dpp2009@sina.com"
                 }
             ],
             "description": "tars的远程日志",
-            "time": "2018-09-14T06:24:57+00:00"
+            "time": "2021-03-17T13:31:42+00:00"
         },
         {
             "name": "phptars/tars-monitor",
